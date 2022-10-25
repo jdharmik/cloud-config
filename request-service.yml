@@ -11,3 +11,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/requests_db
     username: postgres
     password: password
+  initialization-mode: always
+  jpa:
+    hibernate:
+     ddl-auto: none
